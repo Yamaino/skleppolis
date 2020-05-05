@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Back to top button - can be used for future chatbot
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -404,6 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero {
+    height: 50vh;
     background-attachment: fixed;
   }
 }
@@ -420,13 +421,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   #hero {
-    margin-top: 20px;
+    height: 70vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -438,13 +439,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 100%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -470,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 35px 0;
   overflow: hidden;
 }
 
@@ -1160,20 +1161,6 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
-
-.team .map-container{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-
-.team .map-container iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
 }
 
 /*--------------------------------------------------------------

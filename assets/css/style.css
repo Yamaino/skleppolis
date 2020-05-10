@@ -404,14 +404,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero {
-    height: 50vh;
+    height: 60vh;
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 900px;
   }
   #hero .animated {
     -webkit-animation: none;
@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 600px;
+    height: 650px;
   }
   #hero h1 {
     font-size: 28px;
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero {
-    height: 550px;
+    height: 600px;
   }
 
   #hero .hero-img img {
@@ -1115,8 +1115,8 @@ section {
   bottom: 0;
   right: 0;
   height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
+  opacity: 0.6;
+  z-index: 999;
   text-align: center;
   background: rgba(255, 255, 255, 0.85);
 }
@@ -1161,11 +1161,6 @@ section {
   font-size: 14px;
   line-height: 26px;
   color: #777777;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-}
 }
 
 /*--------------------------------------------------------------

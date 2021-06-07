@@ -741,6 +741,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
+/* Moved from remixicon.css for faster load */
+.ri-menu-line:before { content: "\eecd"; }
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;

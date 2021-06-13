@@ -43,6 +43,7 @@
 .ri-10x { font-size: 10em; }
 .ri-fw { text-align: center; width: 1.25em; }
 
+.ri-article-line:before { content: "\ea7c"; }
 .ri-building-2-line:before { content: "\eb03"; }
 .ri-car-fill:before { content: "\eb2e"; }
 .ri-close-line:before { content: "\eb81"; }

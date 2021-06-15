@@ -1,0 +1,5 @@
+# robots.txt file for skleppolis.pl
+User-agent: *
+Allow: /
+
+Sitemap: https://skleppolis.pl/sitemap.xml
